@@ -1,0 +1,20 @@
+{
+    "name": "badrigogilashvili/taskphprefactoring",
+    "description": "php task refactoring",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Badrigogilashvili\\Taskphprefactoring\\": "src/",
+            "Services\\CalculateCommission\\": "src/services/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Badri Gogilashvili",
+            "email": "badri@gogilashvili.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "9.5.20"
+    }
+}
